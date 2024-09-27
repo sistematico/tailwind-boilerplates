@@ -1,47 +1,27 @@
-# Astro Starter Kit: Minimal
+# 🚀 TailwindCSS Boilerplates
 
-```sh
-npm create astro@latest -- --template minimal
-```
+[![Deploy to GitHub Pages](https://github.com/sistematico/tailwindcss/actions/workflows/pages.yml/badge.svg)](https://github.com/sistematico/tailwindcss/actions/workflows/pages.yml)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 📰 References
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- https://tailwindcss.com/docs
+- https://docs.astro.build
+- https://dev.to/codeply/helpful-page-layouts-using-tailwind-css-1a3k
+- https://preline.co/examples/layouts-basic.html
+- https://layoutsfortailwind.lalokalabs.dev/
+- https://tailwindcss.5balloons.info/
+- https://www.tailwindawesome.com/?price=free&type=template
+- https://tailwindflex.com/
+- https://freefrontend.com/tailwind-code-examples/
+- https://github.com/drehimself/tailwind-examples
+- https://www.creative-tim.com/twcomponents/
+- https://tailblocks.cc/
+- https://www.tailwindtoolbox.com/
+- https://tailwindtemplates.io/
+- https://tw-elements.com/
+- https://blog.logrocket.com/best-tailwind-css-component-template-collections/
 
-## 🚀 Project Structure
+## 🕐 ChangeLog
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- `2024/09/27` - Basic scaffolding using [Bun Workspaces](https://github.com/sistematico/bun-workspaces-template)
+  - Added `tailwindcss` `v3.4.13`

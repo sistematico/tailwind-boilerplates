@@ -1,0 +1,36 @@
+---
+import '../styles/tailwind.scss';
+import { config } from '../consts';
+
+const { title = config.appName } = Astro.props;
+---
+
+<html lang="en" class="h-full">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/tailwindcss/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="h-full bg-zinc-800">
+		<slot />
+	</body>
+</html>
+
+<script>
+  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
+  }
+
+  // Whenever the user explicitly chooses light mode
+  // localStorage.theme = 'light'
+
+  // Whenever the user explicitly chooses dark mode
+  // localStorage.theme = 'dark'
+
+  // Whenever the user explicitly chooses to respect the OS preference
+  // localStorage.removeItem('theme')
+</script>
